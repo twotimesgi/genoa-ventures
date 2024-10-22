@@ -7,10 +7,15 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      "spaceGrotesk": "var(--spaceGrotesk)",
+    },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        backgroundLight: "var(--backgroundLight)",
+        backgroundLighter: "var(--backgroundLighter)",
+        foreground: "var(--foreground)"
       },
     },
   },
