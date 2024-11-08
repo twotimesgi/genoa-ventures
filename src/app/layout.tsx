@@ -1,9 +1,20 @@
 import type { Metadata } from "next";
-import {  Roboto, Space_Grotesk } from 'next/font/google'
+import { Roboto, Space_Grotesk } from "next/font/google";
 
-const roboto  = Roboto({subsets: ['latin'], weight: ["400", "500", "700"], variable: "--roboto"});
-const spaceGrotesk = Space_Grotesk({subsets: ['latin'], weight: ["400", "500", "600", "700"], variable: "--spaceGrotesk"});import "./globals.css";
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  variable: "--roboto",
+});
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--spaceGrotesk",
+});
+import "./globals.css";
 import { Header } from "@/components/header";
+import { Toaster } from "react-hot-toast";
+import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,11 +28,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${roboto.style} ${spaceGrotesk.variable} antialiased`}
-      >
-        <Header/>
-        {children}
+      <body className={`${roboto.style} ${spaceGrotesk.variable} antialiased`}>
+        <main>
+          <Toaster />
+          <Header />
+          {children}
+        </main>
       </body>
     </html>
   );

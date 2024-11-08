@@ -3,10 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --primary: #F64C12;
-  --backgroundLighter: #FFFAF5;
-  --backgroundLight: #E8E2DD;
-  --foreground: #344054;
+  --primary: #f64c12;
+  --white: #FFFEFD;
+  --backgroundLighter: #fffaf5;
+  --backgroundLight: #e8e2dd;
+  --foreground: #182230;
+  --max-w: 1920px;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 body {
@@ -17,5 +23,13 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 }
