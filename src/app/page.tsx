@@ -10,11 +10,8 @@ import { Input } from "@/components/ui/input";
 export default function Home() {
   return (
    <main>
-   <Hero/>
-   <Clients/>
-  <Mentors/>
-   <Pricing/>
-   <ContactUs></ContactUs>
-    </main>
+    <Hero/>
+    <Clients/>
+     </main>
   );
 }
