@@ -15,9 +15,9 @@ export const Footer = () => {
             className="mb-8"
           />
           <p className="text-sm tablet:font-normal font-thin">
-            The startup academy for Genoese students
+            The startup academy for Genoese students.
             <br />
-            <br /> Genoa Ventures Cultural and Social Promotion Association{" "}
+            <br /> Genoa Ventures Cultural and Social Promotion Association
             <br /> Piazza Cristoforo Bonavino, 1, 16156 Genova
           </p>
         </div>

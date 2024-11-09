@@ -12,7 +12,7 @@ export const Clients = () => {
       <div className="m-auto flex flex-col items-center gap-3  max-w-page">
         <SubHeading>Clients</SubHeading>
         <div className="flex flex-col gap-9 items-center">
-          <h2 className="font-spaceGrotesk tracking-tight font-bold laptop:text-[2rem] laptop:leading-[2.375rem] text-[1.125rem] text-center max-w-[48rem] leading-[1.25rem] ">
+          <h2 className="font-spaceGrotesk tracking-tight font-bold tablet:text-[2rem] tablet:leading-[2.375rem] text-[1.125rem] text-center max-w-[48rem] leading-[1.25rem] ">
             How Genoa Ventures can practically help European’s talents
           </h2>
           <div className="flex tablet:gap-x-11 gap-x-4 items-center">

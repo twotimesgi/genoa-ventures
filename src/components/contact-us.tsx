@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import ContactUsImage from "@/app/public/contact-us.png";
+import ContactUsImage from "@/app/public/contact-us.jpeg";
 import { Button } from "./ui/button";
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -47,16 +47,17 @@ export const ContactUs = () => {
     }
   };
   return (
-    <section id="contactus" className="bg-backgroundLight tablet:px-[92px] px-[24px] desktop:px-[156px] tablet:py-[96px] py-[80px] flex gap-x-16 m-auto justify-between">
+    <section id="contactus" className="bg-white tablet:px-[92px] px-[24px] desktop:px-[156px] tablet:py-[96px] py-[80px]">
+      <div className="max-w-page flex gap-x-16 m-auto justify-between ">
       <div className="tablet:w-5/12 w-full flex-shrink-0">
-        <h2 className="tracking-tight text-4xl font-semibold font-spaceGrotesk mb-5">
+        <h2 className="tracking-tight tablet:text-4xl text-[2rem] font-semibold font-spaceGrotesk tablet:mb-5 mb-3">
           More Information
         </h2>
-        <p className="text-xl mb-12">
+        <p className="tablet:text-xl text-sm desktop:mb-12 mb-8">
           Our friendly team would love to hear from you.
         </p>
         <form onSubmit={handleSubmit(onSubmit)}>
-          <div className="flex gap-x-8 w-full mb-6 flex-col tablet:flex-row">
+          <div className="flex gap-8 w-full mb-6 flex-col tablet:flex-row">
             <div className="flex flex-col gap-y-1.5 w-full ">
             <div className="flex justify-between items-center">
                 <label className="text-sm">First Name</label>
@@ -114,10 +115,11 @@ export const ContactUs = () => {
       </div>
       <div className="w-7/12 flex-shrink-1 tablet:flex hidden  justify-end">
         <Image
-          className="h-full object-cover"
+          className="h-full object-cover rounded-3xl rounded-bl-[6rem]"
           alt="Person typing a message on a keyboard."
           src={ContactUsImage}
         />
+      </div>
       </div>
     </section>
   );
