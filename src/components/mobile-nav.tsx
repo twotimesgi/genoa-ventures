@@ -1,7 +1,6 @@
 import { NAV_ITEMS } from "@/constants";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
 interface MobileNavProps {
