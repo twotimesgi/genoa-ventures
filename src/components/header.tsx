@@ -7,7 +7,7 @@ import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { NAV_ITEMS } from "@/constants";
 import { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import { MobileNav } from "./mobile-nav";
 
 export const Header = () => {

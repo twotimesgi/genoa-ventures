@@ -4,7 +4,7 @@ import ContactUsImage from "@/app/public/contact-us.png";
 import { Button } from "./ui/button";
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm, SubmitHandler, FieldValues } from "react-hook-form";
+import { useForm, SubmitHandler } from "react-hook-form";
 import { sendMail } from "@/lib/send-mail";
 import toast from "react-hot-toast";
 
