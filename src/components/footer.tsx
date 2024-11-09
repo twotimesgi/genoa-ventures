@@ -1,4 +1,4 @@
-import Logo from "@/app/public/Logo.png";
+import Logo from "../app/public/logo.png";
 import Image from "next/image";
 import { FaInstagram, FaLinkedin } from "react-icons/fa6";
 
