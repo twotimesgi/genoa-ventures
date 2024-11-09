@@ -1,5 +1,5 @@
 "use client";
-import Logo from "@/app/public/Logo.png";
+import Logo from "../app/public/logo.png";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import classNames from "classnames";
