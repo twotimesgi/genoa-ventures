@@ -48,8 +48,8 @@ export const ContactUs = () => {
   };
   return (
     <section id="contactus" className="bg-white tablet:px-[92px] px-[24px] desktop:px-[156px] tablet:py-[96px] py-[80px]">
-      <div className="max-w-page flex gap-x-16 m-auto justify-between ">
-      <div className="tablet:w-5/12 w-full flex-shrink-0">
+      <div className="max-w-page flex laptop:gap-x-16 tablet:gap-x-8 m-auto justify-between ">
+      <div className="laptop:w-7/12 w-full flex-shrink-1">
         <h2 className="tracking-tight tablet:text-4xl text-[2rem] font-semibold font-spaceGrotesk tablet:mb-5 mb-3">
           More Information
         </h2>
@@ -107,13 +107,13 @@ export const ContactUs = () => {
           
           <Button
             type="submit"
-            className="w-full"
+            className="w-full py-3 tablet:py-4"
             disabled={isSubmitting}
           >Send message
           </Button>
         </form>
       </div>
-      <div className="w-7/12 flex-shrink-1 tablet:flex hidden  justify-end">
+      <div className="w-5/12 flex-shrink-1 laptop:flex hidden  justify-end">
         <Image
           className="h-full object-cover rounded-3xl rounded-bl-[6rem]"
           alt="Person typing a message on a keyboard."
