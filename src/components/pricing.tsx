@@ -10,10 +10,10 @@ export const Pricing = () => {
     <div className="m-auto max-w-page flex flex-col-reverse tablet:flex-row gap-[28px] desktop:gap-[88px]">
       <div className="tablet:w-1/2 w-full border border-[#EAECF0] rounded-lg shadow-lg bg-white">
         <div className="p-6 border-b">
-          <div className="font-semibold text-sm tablet:text-lg mb-4">
+          <div className="font-semibold text-sm tablet:text-lg tablet:mb-4 mb-2">
             6 Months Program
           </div>
-          <div className="font-spaceGrotesk font-bold tracking-tight tablet:text-6xl text-[44px]">
+          <div className="font-spaceGrotesk font-bold tracking-tight tablet:text-6xl text-[2.75rem]">
             €599
           </div>
         </div>
@@ -37,18 +37,16 @@ export const Pricing = () => {
         <SubHeading className="mb-3 text-sm tablet:text-base">
           Pricing
         </SubHeading>
-        <h2 className="font-bold font-spaceGrotesk desktop:text-[36px] tablet:text-[32px] text-[20px] tablet:mb-5 mb-4 tracking-tight">
+        <h2 className="font-bold font-spaceGrotesk tablet:text-[2.25rem] text-xl tablet:mb-5 mb-4 tracking-tight">
           Plans that fit your scale
         </h2>
-        <div className="text-base tablet:text-xl tablet:mb-11 mb-[44px]">
-          <div className="font-medium">
-            Pay in 3 installments or €100 per month.
-          </div>
-          <div className="font-normal">
+        <div className="text-base tablet:text-xl tablet:mb-11 mb-[44px] flex flex-col items-center tablet:items-start">
+          <div className="font-medium">Pay in 3 installments or €100 per month.</div>
+          <div className="tablet:font-normal font-light">
             Start your journey with Genoa Ventures now.
           </div>
         </div>
-        <div className="tablet:my-8 mb-[28px] w-full">
+        <div className="tablet:my-8 laptop-mb-7 mb-0 w-full">
           <Button
             className="w-full mb-3 hidden tablet:block"
             size="md"
