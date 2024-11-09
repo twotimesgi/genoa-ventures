@@ -27,7 +27,6 @@ export const Button = ({
     // TODO: implement onClick animation
     onClick={onClick}
       className={classNames(
-        className,
         "px-5 rounded-[4px] font-semibold capitalize shadow-sm transition duration-300 ease-in-out",
         {
           "py-3 text-base": size == "sm",
@@ -37,7 +36,8 @@ export const Button = ({
             variant == "primary",
           "text-foreground bg-white border border-[#D0D5DD] hover:bg-backgroundLighter":
             variant == "secondary",
-        }
+        },
+        className,
       )}
     >
       {children}

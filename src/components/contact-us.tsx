@@ -107,7 +107,8 @@ export const ContactUs = () => {
           
           <Button
             type="submit"
-            className="w-full py-3 tablet:py-4"
+            className="w-full"
+            size="sm"
             disabled={isSubmitting}
           >Send message
           </Button>
