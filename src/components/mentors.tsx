@@ -51,9 +51,9 @@ export const Mentors = () => {
         <p className="text-xl">Hear from some of our amazing Mentors.</p>
       </div>
 
-      <div className="pl-[156px] gap-x-8 flex overflow-x-auto">
+      <div className="pl-[156px] gap-x-8 flex overflow-x-auto no-scrollbar">
         {mentors.map((mentor) => (
-            <MentorCard name={mentor.name} role={mentor.role} company={mentor.company} linkedinUrl={mentor.linkedinUrl} image={mentor.image}/>
+            <MentorCard key={mentor.name} name={mentor.name} role={mentor.role} company={mentor.company} linkedinUrl={mentor.linkedinUrl} image={mentor.image}/>
         ))}
       </div>
     </div>
