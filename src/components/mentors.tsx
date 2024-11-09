@@ -41,21 +41,23 @@ const mentors = [
 
 export const Mentors = () => {
   return (
-    <div className="bg-backgroundLight m-auto py-[96px]">
-      <div className="px-[156px] mb-16">
+    <div className="bg-backgroundLight tablet:py-[96px] py-[58px]">
+      <div className="max-w-page m-auto">
+      <div className="desktop:px-40 laptop:px-[5.75rem] px-6 tablet:mb-16 mb-5">
         <div className="flex justify-between">
-        <h2 className="tracking-tight font-bold text-4xl font-spaceGrotesk mb-5">
+        <h2 className="tracking-tight font-bold tablet:text-[2rem] text-xl font-spaceGrotesk mb-5">
           Mentors
         </h2>
         </div>
-        <p className="text-xl">Hear from some of our amazing Mentors.</p>
+        <p className="tablet:text-xl text-base">Hear from some of our amazing Mentors.</p>
       </div>
 
-      <div className="pl-[156px] gap-x-8 flex overflow-x-auto no-scrollbar">
+      <div className="desktop:px-40 laptop:px-[5.75rem] px-6  gap-x-8 flex overflow-x-auto no-scrollbar">
         {mentors.map((mentor) => (
             <MentorCard key={mentor.name} name={mentor.name} role={mentor.role} company={mentor.company} linkedinUrl={mentor.linkedinUrl} image={mentor.image}/>
         ))}
       </div>
+    </div>
     </div>
   );
 };

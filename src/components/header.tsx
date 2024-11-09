@@ -22,7 +22,7 @@ export const Header = () => {
         {showMenu && <MobileNav onClose={toggleMenu}/>}
       </AnimatePresence>
       <div className="laptop:py-7 m-auto desktop:px-40 laptop:px-[5.75rem] px-6 bg-white"> 
-      <header className="flex items-center justify-between relative z-50 h-20 laptop:h-auto max-w-page ">
+      <header className="flex items-center justify-between relative z-50 h-20 laptop:h-auto max-w-page m-auto ">
         <button className="laptop:hidden" onClick={toggleMenu}>
           <RxHamburgerMenu size={24} />
         </button>
