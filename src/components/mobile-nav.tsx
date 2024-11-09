@@ -46,7 +46,7 @@ export const MobileNav = ({onClose} : MobileNavProps) => {
         ease: "easeInOut",
       },
     },
-  };    const router = useRouter();
+  };    
 
 
   return (
@@ -67,7 +67,7 @@ export const MobileNav = ({onClose} : MobileNavProps) => {
       >
         <ul>
             {NAV_ITEMS.map((item: NavItem) => 
-            <li className="py-4 px-8 border-b border-b-neutral-200 last:border-b-0">
+            <li key={item.href} className="py-4 px-8 border-b border-b-neutral-200 last:border-b-0">
                 <Link className="h-full w-full leading-6 relative" href={item.href}>
                 {item.isActive && <span className="h-2 w-2 bg-primary rounded-full absolute -left-3 top-1/2 -translate-y-1/2"/>}
                 {item.text}

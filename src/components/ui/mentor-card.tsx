@@ -28,7 +28,7 @@ export const MentorCard = ({
             <div className="text-lg font-normal">{role}</div>
             <div className="font-light">@{company}</div>
           </div>
-          <Button className="self-end" size="mentorButton" variant="secondary">
+          <Button className="self-end" size="mentorButton" variant="secondary" onClick={() => console.log(linkedinUrl)}>
             Linkedin
           </Button>
         </div>

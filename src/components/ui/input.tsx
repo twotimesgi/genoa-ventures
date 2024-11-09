@@ -8,9 +8,9 @@ interface InputProps{
     placeHolder?: string
 }
 
-export const Input = ({children, className, label, id, placeHolder} : InputProps) => {
+export const Input = ({className, label, id, placeHolder} : InputProps) => {
   return (
-    <div className="flex flex-col gap-y-1.5">
+    <div className={classNames("flex flex-col gap-y-1.5", className)}>
          <label htmlFor={id}>{label}</label>
          <input type="text" id={id} name={id} className="py-2.5 px-3.5 placeholder:font-light text-sm focus:bg-backgroundLighter" placeholder={placeHolder}/>
     </div>
