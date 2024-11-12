@@ -6,7 +6,7 @@ import { SubHeading } from "./ui/subheading";
 
 export const Pricing = () => {
   return (
-    <div className="bg-backgroundLight laptop:py-24 laptop:px-[9.75rem] tablet:px-[5.75rem] px-6 py-[3.625rem]">
+    <div className="bg-backgroundLight laptop:py-24 desktop:px-[9.75rem] laptop:px-[5.75rem] px-6 py-[3.625rem]">
     <div className="m-auto max-w-page flex flex-col-reverse tablet:flex-row gap-[28px] desktop:gap-[88px]">
       <div className="tablet:w-1/2 w-full border border-[#EAECF0] rounded-lg shadow-lg bg-white">
         <div className="p-6 border-b">
