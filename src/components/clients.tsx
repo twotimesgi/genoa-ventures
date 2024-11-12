@@ -8,7 +8,7 @@ import CambridgeLogo from "@/app/public/cambridge-logo.png"
 import MitLogo from "@/app/public/mit-logo.png"
 export const Clients = () => {
   return (
-    <div className="bg-backgroundLighter desktop:px-40 laptop:px-[5.75rem] px-6 laptop:py-[8.75rem] pt-[2.25rem] pb-[2.6875rem] ">
+    <div id="clients" className="bg-backgroundLighter desktop:px-40 laptop:px-[5.75rem] px-6 laptop:py-[8.75rem] pt-[2.25rem] pb-[2.6875rem] ">
       <div className="m-auto flex flex-col items-center gap-3  max-w-page">
         <SubHeading>Clients</SubHeading>
         <div className="flex flex-col gap-9 items-center">

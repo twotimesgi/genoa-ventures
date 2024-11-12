@@ -41,7 +41,7 @@ const mentors = [
 
 export const Mentors = () => {
   return (
-    <div className="bg-backgroundLight tablet:py-[96px] py-[58px]">
+    <div id="mentors" className="bg-backgroundLight tablet:py-[96px] py-[58px]">
       <div className="max-w-page m-auto">
       <div className="desktop:px-40 laptop:px-[5.75rem] px-6 tablet:mb-16 mb-5">
         <div className="flex justify-between">

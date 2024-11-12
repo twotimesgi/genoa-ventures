@@ -10,7 +10,7 @@ export default function Home() {
    <main>
     <Hero/>
     <Clients/>
-    <Mentors/>
+    {/* <Mentors/> */}
     <Pricing/>
     <ContactUs/>
      </main>
