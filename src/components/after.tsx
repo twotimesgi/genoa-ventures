@@ -9,7 +9,7 @@ export const AfterTheProgram = () => {
         <h2 className="tracking-tight font-bold tablet:text-[2.25rem] text-xl font-spaceGrotesk mb-5 text-center w-full tablet:text-left">
           After the program
         </h2>
-        <p className="w-full text-center tablet:text-left tablet:text-xl">Travel to San Francisco to visit major tech headquarters, including Meta, Tesla, and Google, to learn the top founders' secrets and expand your network.</p>
+        <p className="w-full text-center tablet:text-left tablet:text-xl">Travel to San Francisco to visit major tech headquarters, including Meta, Tesla, and Google, to learn the top founders&apos; secrets and expand your network.</p>
         </div>
         <div className="flex flex-col laptop:flex-row gap-[24px]">
         <div className="w-full laptop:w-5/12 desktop:mt-[8.125rem] laptop:mt-12 laptop:h-[34.375rem] h-[24rem] relative overflow-hidden rounded-[4px] flex-start">
@@ -61,7 +61,7 @@ export const AfterTheProgram = () => {
                 <span className="text-primary font-bold">Meta</span>,{" "}
                 <span className="text-primary font-bold">Tesla</span>, and{" "}
                 <span className="text-primary font-bold">Google</span>, to learn
-                the top founders' secrets and expand your network.
+                the top founders&apos; secrets and expand your network.
               </p>
             </div></div>
           </div>
