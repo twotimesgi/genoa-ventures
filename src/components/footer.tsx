@@ -1,5 +1,6 @@
 import Logo from "../app/public/logo.png";
 import Image from "next/image";
+import Link from "next/link";
 import { FaInstagram, FaLinkedin } from "react-icons/fa6";
 
 export const Footer = () => {
@@ -26,19 +27,19 @@ export const Footer = () => {
           <div className="font-spaceGrotesk font-bold tablet:text-2xl text-xl mb-8">Menu</div>
           <ul className="flex flex-col gap-y-4 text-sm">
             <li>
-              <a href="">Pricing</a>
+              <Link href="#pricing">Pricing</Link>
             </li>
             <li>
-              <a href="">Features</a>
+              <Link href="#features">Features</Link>
             </li>
             <li>
-              <a href="">Mentors</a>
+              <a href="#mentors">Mentors</a>
             </li>
             <li>
-              <a href="">Contact Us</a>
+              <a href="#contactus">Contact Us</a>
             </li>
             <li>
-              <a href="">Clients</a>
+              <a href="#clients">Clients</a>
             </li>
           </ul>
         </nav>
@@ -49,11 +50,11 @@ export const Footer = () => {
           <ul className="flex flex-col gap-y-4 text-sm">
             <li className="flex gap-x-2 items-center">
               <FaLinkedin size="16px" className="text-primary"/>
-              <a href="">LinkedIn</a>
+              <Link href="https://www.linkedin.com/company/genoa-ventures/">LinkedIn</Link>
             </li>
             <li className="flex gap-x-2 items-center">
                 <FaInstagram size="16px" className="text-primary"/>
-              <a href="">Instagram</a>
+              <Link href="https://www.instagram.com/genoaventures/">Instagram</Link>
             </li>
           </ul>
         </div>
