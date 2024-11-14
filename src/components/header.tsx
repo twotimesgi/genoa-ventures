@@ -9,12 +9,15 @@ import { NAV_ITEMS } from "@/constants";
 import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import { MobileNav } from "./mobile-nav";
+import { useRouter } from "next/navigation";
 
 export const Header = () => {
   const [showMenu, setShowMenu] = useState<boolean>(false);
   const toggleMenu = () => {
     setShowMenu((prev) => !prev);
   };
+
+  const router = useRouter();
 
   return (
     <>
@@ -57,7 +60,9 @@ export const Header = () => {
         <Button
           size="sm"
           variant="primary"
-          onClick={() => {}}
+          onClick={() => {
+            router.push("#contactus")
+          }}
           className="shrink-0 hidden laptop:block"
         >
           Get started
