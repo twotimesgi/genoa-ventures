@@ -57,7 +57,7 @@ export const ContactUs = () => {
           Our friendly team would love to hear from you.
         </p>
         <form onSubmit={handleSubmit(onSubmit)}>
-          <div className="flex gap-8 w-full mb-6 flex-col tablet:flex-row">
+          <div className="flex gap-x-8 gap-y-6 p w-full mb-6 flex-col tablet:flex-row">
             <div className="flex flex-col gap-y-1.5 w-full ">
             <div className="flex justify-between items-center">
                 <label className="text-sm">First Name</label>
