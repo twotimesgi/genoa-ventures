@@ -21,7 +21,7 @@ export const DemoDay = () => {
               Pitch to <span className="text-primary font-bold">investors</span> and <span className="text-primary font-bold">mentor</span> your idea or your startup
               experience.
             </p>
-            <p className=" font-spaceGrotesk  desktop:text-[1.75rem] laptop:text-[1.5rem] text-[1.375rem]">
+            <p className=" font-spaceGrotesk  desktop:text-[1.75rem] laptop:text-[1.5rem] text-xl">
               Receive your <span className="text-primary font-bold">Certificate</span> of accomplishment from our mentors.
             </p>
           </div>
