@@ -17,7 +17,7 @@ export const DemoDay = () => {
             </h2>
           </div>
           <div className="shadow-lg laptop:px-9 px-5 laptop:py-[3.625rem] py-[2.5rem] flex flex-col gap-y-[60px] border border-[#EAECF0] rounded-lg">
-            <p className=" font-spaceGrotesk desktop:text-[1.75rem] laptop:text-[1.5rem] text-[1.375rem]">
+            <p className=" font-spaceGrotesk desktop:text-[1.75rem] laptop:text-[1.5rem] text-xl">
               Pitch to <span className="text-primary font-bold">investors</span> and <span className="text-primary font-bold">mentor</span> your idea or your startup
               experience.
             </p>
