@@ -1,10 +1,12 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { Button } from "./ui/button";
 import { CheckIcon } from "./ui/check-icon";
 import { SubHeading } from "./ui/subheading";
 
 export const Pricing = () => {
+  const router = useRouter();
   return (
     <div id="pricing" className="bg-backgroundLight laptop:py-24 desktop:px-[9.75rem] laptop:px-[5.75rem] px-6 py-[3.625rem]">
     <div className="m-auto max-w-page flex flex-col-reverse tablet:flex-row gap-[28px] desktop:gap-[88px]">
@@ -51,7 +53,9 @@ export const Pricing = () => {
             className="w-full mb-3 hidden tablet:block"
             size="md"
             variant="primary"
-            onClick={() => {}}
+            onClick={() => {
+              window.open ('https://drive.google.com/file/d/1SNG6BAZDYp5aq7GB9wacC6hMSWSL4nwX/view?usp=sharing', '_ blank');
+            }}
           >
             Download the brochure
           </Button>
@@ -59,7 +63,9 @@ export const Pricing = () => {
             className="w-full hidden tablet:block"
             size="md"
             variant="secondary"
-            onClick={() => {}}
+            onClick={() => {
+              router.push("#contactus")
+            }}
           >
             Contact us
           </Button>
@@ -67,7 +73,9 @@ export const Pricing = () => {
             className="w-full block tablet:hidden mb-3"
             size="sm"
             variant="primary"
-            onClick={() => {}}
+            onClick={() => {
+              window.open ('https://drive.google.com/file/d/1SNG6BAZDYp5aq7GB9wacC6hMSWSL4nwX/view?usp=sharing', '_ blank');
+            }}
           >
             Download the brochure
           </Button>
@@ -75,7 +83,9 @@ export const Pricing = () => {
             className="w-full block tablet:hidden "
             size="sm"
             variant="secondary"
-            onClick={() => {}}
+            onClick={() => {
+              router.push("#contactus")
+            }}
           >
             Contact us
           </Button>

@@ -2,8 +2,10 @@
 import Image from "next/image";
 import HeroImage from "../app/public/hero.png";
 import { Button } from "./ui/button";
+import { useRouter } from "next/navigation";
 
 export const Hero = () => {
+  const router = useRouter();
   return (
     <div id="home" className="bg-white desktop:px-40 laptop:px-[5.75rem] px-6 laptop:py-[8.75rem] pt-[2.25rem] pb-[2.6875rem] ">
       <div className="flex flex-col laptop:flex-row m-auto gap-[39px]  max-w-page">
@@ -24,7 +26,9 @@ export const Hero = () => {
         <Button
           size="sm"
           variant="primary"
-          onClick={() => {}}
+          onClick={() => {
+            router.push("#contactus")
+          }}
           className="w-full laptop:hidden"
         >
           Get started
