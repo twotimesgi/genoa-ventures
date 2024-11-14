@@ -50,11 +50,11 @@ export const Footer = () => {
           <ul className="flex flex-col gap-y-4 text-sm">
             <li className="flex gap-x-2 items-center">
               <FaLinkedin size="16px" className="text-primary"/>
-              <Link href="https://www.linkedin.com/company/genoa-ventures/">LinkedIn</Link>
+              <Link href="https://www.linkedin.com/company/genoa-ventures/" target="_blank">LinkedIn</Link>
             </li>
             <li className="flex gap-x-2 items-center">
                 <FaInstagram size="16px" className="text-primary"/>
-              <Link href="https://www.instagram.com/genoaventures/">Instagram</Link>
+              <Link href="https://www.instagram.com/genoaventures/" target="_blank">Instagram</Link>
             </li>
           </ul>
         </div>
