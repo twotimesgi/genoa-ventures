@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import HeroImage from "@/app/public/hero.png";
+import HeroImage from "../app/public/hero.png";
 import { Button } from "./ui/button";
 
 export const Hero = () => {

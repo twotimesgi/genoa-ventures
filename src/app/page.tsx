@@ -1,4 +1,5 @@
 "use client" 
+import { AfterTheProgram } from "@/components/after";
 import { Clients } from "@/components/clients";
 import { ContactUs } from "@/components/contact-us";
 import { DemoDay } from "@/components/demo-day";
@@ -10,6 +11,7 @@ export default function Home() {
    <main>
     <Hero/>
     <Clients/>
+    <AfterTheProgram/>
     <DemoDay/>
     <Pricing/>
     <ContactUs/>
