@@ -7,7 +7,7 @@ export const DemoDay = () => {
         <Image
           src={DemoImage}
           alt={"Two guests presenting on the stage during the demo day."}
-          className="rounded-tl-[80px] rounded-tr-[8px] rounded-br-[80px] rounded-bl-[8px] w-full tablet:w-1/2 object-cover brightness-75"
+          className="rounded-tl-[80px] rounded-tr-[8px] rounded-br-[80px] rounded-bl-[8px] w-full tablet:w-1/2 tablet:h-auto h-[25rem] object-cover brightness-75"
         />
         <div className="flex gap-[10px] w-full tablet:w-1/2 flex-col">
           <div className="flex flex-col latop:gap-y-4 gap-y-1 laptop:py-8">
