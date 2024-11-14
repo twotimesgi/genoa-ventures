@@ -38,7 +38,7 @@ export const AfterTheProgram = () => {
             </div>
           </div>
         </div>
-        <div className="flex gap-[10px] w-full laptop:w-7/12 flex-col desktop:h-[37.5rem] laptop:h-[31rem] h-[22rem] relative laptop:mb-[5.3rem] overflow-hidden rounded-[4px]">
+        <div className="flex gap-[10px] w-full laptop:w-7/12 flex-col desktop:h-[37.5rem] laptop:h-[31rem] h-[26rem] relative laptop:mb-[5.3rem] overflow-hidden rounded-[4px]">
           <Image
             src={SiliconValleyImage}
             alt=""
